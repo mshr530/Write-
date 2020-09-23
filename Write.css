@@ -1,0 +1,313 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    width: 72%;
+    margin: 60px auto;
+}
+
+/*headerheaderheaderheaderheaderheaderheaderheaderheaderheaderheaderheaderheaderheaderheader*/
+
+header{
+    height: 75px;
+}
+.title{
+    font-size:35px;
+    font-weight: bold;
+    font-family: 'ヒラギノ明朝 Pro W6',sans-serif;
+}
+
+.title a{
+    text-decoration: none;
+    color: black;
+}
+.title a:hover{
+    color: #424242;
+}
+ul {
+    list-style: none;
+    display: flex;
+}
+li{
+    margin: 0 20px;
+}
+
+/*====================================*/
+.otoiawaseone a{
+    color: black;
+    text-decoration: none;
+}
+
+.otoiawaseone a:hover{
+    color: #DBA901;
+}
+/*=======================================*/
+
+ul li:hover{
+    color: #DBA901;
+}
+.header .left{
+    float: left;
+    width: 30%;
+    font-family: 'ヒラギノ明朝 Pro W3';
+    font-weight: bold;
+    color: #848484;
+}
+.header .right{
+    float: right;
+    width: 70%;
+    font-family: 'ヒラギノ明朝 Pro W3';
+}
+
+
+/*containercontainercontainercontainercontainercontainercontainercontainer*/
+
+/*.container{*/
+/*    height: 2000px;*/
+/*}*/
+.megane{
+    margin: 80px 0 40px;
+}
+.firstmain p{
+    font-size: 27px;
+    color: #6E6E6E;
+    margin: 40px 0 100px;
+    line-height: 50px;
+    font-family: 'ヒラギノ明朝 Pro W3';
+}
+
+.secondmain{
+    width: 100%;
+    height: 1250px;
+}
+.firstdate{
+    /*position: relative;*/
+    float: left;
+    width: 35%;
+    height: 194px;
+    margin-top: 6px;
+    font-family: 'ヒラギノ明朝 Pro W3';
+    /*font-family: 'Merriweather';*/
+    font-weight: bold;
+}
+.firstdate a{
+    color: #A4A4A4;
+    text-decoration: none;
+    
+}
+
+.firstdate a:hover{
+    color: #848484;
+}
+.firstarticle{
+    float: right;
+    width: 65%;
+    height: 200px;
+}
+.articletitle{
+    font-weight: bold;
+    font-size: 23px;
+    font-family: 'ヒラギノ明朝 Pro W6';
+}
+.articletitle a{
+    color: black;
+    text-decoration: none;
+}
+
+.articletitle a:hover{
+    color: #B18904; 
+}
+.articlecomment{
+    margin-top: 30px;
+    margin-bottom: 60px;
+    color: #6E6E6E;
+    font-family: 'ヒラギノ明朝 Pro W3';
+}
+
+/*1231231231231231231231231223123123123123132*/
+
+.thirdmain{
+    position: static;
+    /*display: flex;*/
+    /*float: right;*/
+    /*width: 65%;*/
+    height: 45px;
+    font-family: 'ヒラギノ明朝 Pro W3';
+    font-size: 15px;
+    font-weight: bold;
+}
+    
+.thirdmain p{
+    position: relative;
+    left: 360px;
+    display: inline;
+    padding: 30px;
+    margin: 0 0px;
+    /*font-size: 5px;*/
+}
+.thirdmain .number{
+    border: 1px solid #D8D8D8;
+    /*font-family: "Merriweather";*/
+    padding: 10px 15px 11px;
+    margin-right: 2px;
+    /*font-size: 10px;*/
+}
+
+.numberone{
+    color: #424242;
+}
+.number a{
+    color: #585858;
+    text-decoration: none;
+}
+
+.number a:hover{
+    color: #151515;
+}
+
+/*hr{*/
+/*    width: 100%;*/
+/*    margin: 135px 0 70px;*/
+/*    color: #f2f2f2;*/
+/*}*/
+
+
+/*footerfooterfooterfooterfooterfooterfooterfooterfooterfooterfooterfooterfooterfooterfooterfooterfooterfooterfooterfooter*/
+footer{
+    color: #6E6E6E;
+    font-family: 'ヒラギノ明朝 Pro W3';
+    margin-top: 100px;
+}
+.footerfirst{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #D8D8D8;
+    padding-top: 80px;
+    border-bottom: 1px solid #D8D8D8;
+    padding-bottom: 120px;
+    margin-bottom: 70px;
+}
+.firstcolumn{
+   width: 24%;
+}
+.secondcolumn{
+   width: 20%;
+   margin-left: 20px;
+}
+.thirdcolumn{
+    width: 18%;
+}
+.fourthcolumn{
+    width: 18%;
+}
+
+.otoko{
+    width: 100px;
+    border-radius: 50%;
+    
+}
+.otokojohn{
+    /*position: static;*/
+}
+.nameright {
+    float: right;
+    width: 50%;
+    margin-top: 10px;
+}
+.johnicon{
+    margin-top: 10px;
+}
+.johniconhover a{
+    color: #848484;
+}
+.johniconhover a:hover{
+    color: #424242;
+}
+
+.john{
+    /*position: relative;*/
+    width: 100px;
+    /*bottom: 60px;*/
+    /*margin-top: 20px;*/
+    margin-left: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'ヒラギノ明朝 Pro W6';
+    color: black;
+}
+.johnsns{
+    font-size: 1.3em;
+    margin-right: 5px;
+    /*color: #848484;*/
+}
+
+.columntitle{
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    font-family: 'ヒラギノ明朝 Pro W6';
+    color: black;
+}
+.firstcolumn p{
+    line-height: 28px;
+    margin-top: 10px;
+    font-size: 16px;
+}
+.secondcolumncomment{
+    line-height: 28px;
+}
+.thirdcolumnarticletitle{
+    margin-bottom: 7px;
+}
+.thirdcolumnarticledate{
+    margin-bottom: 14px;
+    font-size: 14px;
+}
+.thirdcolumnarticletitle a{
+    color: #6E6E6E;
+    text-decoration: none;
+    border-bottom:1px solid #D8D8D8;
+}
+
+.thirdcolumnarticletitle a:hover{
+    color: #DBA901;
+}
+.category{
+    
+}
+.fourthcolumnarticle{
+    margin-bottom: 15px;
+}
+.fourthcolumnarticle a{
+    color: #6E6E6E;
+    text-decoration: none;
+    border-bottom:1px solid #D8D8D8;
+}
+
+.fourthcolumnarticle a:hover{
+    color: #DBA901;
+}
+
+.footerlastleft{
+    float: left;
+}
+
+.copyright{
+    text-align: center;
+    margin: 10px 310px 50px 0;
+    color: #A4A4A4;
+    font-size: 15px;
+    font-weight: bold;
+    float: right;
+    /*width: 900px;*/
+}
+
+.copyrightlink a{
+    color: #585858;
+    text-decoration: none;
+}
+
+.copyrightlink a:hover{
+    color: black;
+}
